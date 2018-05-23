@@ -1,0 +1,53 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 10px;
+}
+header {
+  text-align: center;
+  border: 3px black solid;
+}
+.blog {
+  width: 50%;
+  float: left;
+}
+
+.post {
+  margin: 20px 10px;
+}
+
+.about {
+  float: right;
+  width: 40%;
+  margin-left: 30px;
+  background-color: #c0d6ab;
+  padding: 10px;
+}
+.date {
+  font-style: italic;
+  margin-right: 20px;
+}
+
+button {
+  border-radius: 10%;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+
+.about h2 {
+  color: #68c4c4;
+}
+.about p {
+  color: #d81313;
+}
